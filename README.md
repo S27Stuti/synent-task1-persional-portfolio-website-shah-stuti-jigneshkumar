@@ -34,24 +34,6 @@ A modern and responsive personal portfolio website built to showcase my skills, 
 ### Version Control
 - Git & GitHub
 
-## 📂 Project Structure
-
-```bash
-portfolio-website/
-│
-├── public/
-├── src/
-│   ├── components/
-│   ├── assets/
-│   ├── pages/
-│   ├── App.js
-│   └── index.js
-│
-├── package.json
-├── README.md
-└── .gitignore
-```
-
 ## 🎯 Purpose
 
 This portfolio website was developed to:
@@ -91,8 +73,6 @@ Data cleaning, visualization, dashboard creation, and exploratory data analysis 
 Computer Science & Design Engineering Student
 
 📧 Email: stutu2004shah@gmail.com
-
-🔗 LinkedIn: www.linkedin.com/in/stuti-shah-091897258
 
 🔗 GitHub: https://github.com/
 
