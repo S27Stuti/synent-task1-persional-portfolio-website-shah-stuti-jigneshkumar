@@ -1,0 +1,890 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Modern Portfolio</title>
+
+  <!-- CSS FILE -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- GOOGLE FONT -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- STARS -->
+  <div class="stars">
+    <span style="top:10%;left:20%;"></span>
+    <span style="top:30%;left:70%;"></span>
+    <span style="top:50%;left:40%;"></span>
+    <span style="top:70%;left:80%;"></span>
+    <span style="top:85%;left:25%;"></span>
+    <span style="top:20%;left:90%;"></span>
+    <span style="top:60%;left:10%;"></span>
+    <span style="top:40%;left:55%;"></span>
+  </div>
+
+  <!-- NAVBAR -->
+
+  <nav>
+    <div class="logo">SS</div>
+<div class="menu-toggle" onclick="toggleMenu()">☰</div>
+
+
+    
+    <ul>
+      <li><a href="#about">About</a></li>
+<li><a href="#skills">Skills</a></li>
+<li><a href="#projects">Projects</a></li>
+<li><a href="#Insights">Insights</a></li>
+<li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO SECTION -->
+
+  <section class="hero">
+
+    <div class="hero-text">
+
+      <div class="hello">👋 HELLO, I'M</div>
+
+      <h1>
+        Stuti <span>Shah</span>
+      </h1>
+
+      <!-- TYPING TEXT -->
+
+      <div class="typing">
+        <span id="changing-text"></span>
+      </div>
+
+      <p>
+        I'm a passionate developer who loves creating beautiful and modern websites with amazing UI/UX experiences and powerful web applications.
+      </p>
+
+      <div class="btns">
+
+       <a href="https://drive.google.com/drive/search?q=Stuti_J_Shah_CV" class="btn primary-btn" target="_blank">
+  See My CV
+</a>
+
+        <a href="#contact" class="btn secondary-btn">
+          Contact Me
+        </a>
+
+      </div>
+
+    </div>
+
+    <!-- IMAGE -->
+
+    <div class="hero-image">
+
+      <div class="circle">
+
+        <!-- CHANGE IMAGE NAME HERE -->
+        <img src="image.jpeg" alt="">
+
+      </div>
+
+    </div>
+
+  </section>
+<!-- ABOUT SECTION -->
+
+<section class="about" id="about">
+
+  <div class="about-title">
+
+    <p>GET TO KNOW ME</p>
+
+    <h1>About Me</h1>
+
+    <div class="line"></div>
+
+  </div>
+
+  <div class="about-container">
+
+    <!-- LEFT CARD -->
+
+    <div class="about-card left-card">
+
+      <div class="profile-box">
+
+        <div class="profile-img">
+          SS
+        </div>
+
+        <div>
+          <h3>Stuti Shah</h3>
+          <p>Frontend & MERN Developer</p>
+        </div>
+
+      </div>
+
+      <h2>
+        Passionate <span>Developer</span><br>
+        and Creative Learner
+      </h2>
+
+      <p class="about-text">
+
+        I have created 3-4 portfolio projects and multiple websites using modern technologies.
+        I love building beautiful user interfaces and interactive web experiences.
+
+      </p>
+
+      <div class="stats">
+
+        <div>
+          <h3>4+</h3>
+          <p>Portfolios</p>
+        </div>
+
+        <div>
+          <h3>10+</h3>
+          <p>Skills</p>
+        </div>
+
+        <div>
+          <h3>8.79</h3>
+          <p>CGPA</p>
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- CENTER CARD -->
+
+    <div class="about-card code-card">
+
+      <div class="top-dots">
+
+        <span class="red"></span>
+        <span class="yellow"></span>
+        <span class="green"></span>
+
+      </div>
+
+<pre>
+const developer = {
+
+  name: "Stuti Shah",
+
+  education: "BE-Computer Science & Design",
+
+  cgpa: "8.79 CGPA",
+
+  Project SPI: "10 SPI",
+
+  skills: [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "React JS",
+    "MongoDB",
+    "SQL",
+    "Python",
+    "UI/UX",
+    "Blender 3D"
+  ],
+
+  currentlyLearning: [
+    "Node JS",
+    "Express JS"
+  ],
+
+  passion: "Creative Web Development"
+
+}
+</pre>
+
+    </div>
+
+    <!-- RIGHT CARD -->
+
+    <div class="about-card right-card">
+
+      <h2>
+        What <span>Drives</span> Me
+      </h2>
+
+      <p>
+
+        I enjoy combining creativity with development to create modern and user-friendly websites.
+        My focus is on making attractive designs with smooth user experiences.
+
+      </p>
+
+      <p>
+
+        Along with frontend and backend development, I also explore UI/UX designing and 3D animation using Blender to improve creativity in my projects.
+
+      </p>
+
+      <div class="small-line"></div>
+
+    </div>
+
+  </div>
+
+</section>
+<!-- SKILLS SECTION -->
+
+<section class="skills" id="skills">
+
+  <div class="skills-title">
+
+    <p>EXPLORE MY STACK</p>
+
+    <h1>Skills & Technologies</h1>
+
+    <span>
+      Technologies I work with to build modern and creative websites.
+    </span>
+
+    <div class="skills-line"></div>
+
+  </div>
+
+  <div class="skills-container">
+
+    <!-- FRONTEND -->
+
+    <div class="skills-card">
+
+      <div class="card-heading">
+        <div class="icon frontend-icon">💻</div>
+        <h2>Frontend</h2>
+      </div>
+
+      <div class="skill">
+
+        <div class="skill-info">
+          <p>HTML5</p>
+          <span>95%</span>
+        </div>
+
+        <div class="progress">
+          <div class="progress-bar html"></div>
+        </div>
+
+      </div>
+
+      <div class="skill">
+
+        <div class="skill-info">
+          <p>CSS3</p>
+          <span>92%</span>
+        </div>
+
+        <div class="progress">
+          <div class="progress-bar css"></div>
+        </div>
+
+      </div>
+
+      <div class="skill">
+
+        <div class="skill-info">
+          <p>JavaScript</p>
+          <span>88%</span>
+        </div>
+
+        <div class="progress">
+          <div class="progress-bar js"></div>
+        </div>
+
+      </div>
+
+      <div class="skill">
+
+        <div class="skill-info">
+          <p>React JS</p>
+          <span>82%</span>
+        </div>
+
+        <div class="progress">
+          <div class="progress-bar react"></div>
+        </div>
+
+      </div>
+
+      <div class="skill">
+
+        <div class="skill-info">
+          <p>UI/UX Design</p>
+          <span>85%</span>
+        </div>
+
+        <div class="progress">
+          <div class="progress-bar uiux"></div>
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- DATABASE & TOOLS -->
+
+    <div class="skills-card">
+
+      <div class="card-heading">
+        <div class="icon tools-icon">🛠️</div>
+        <h2>Tools & Database</h2>
+      </div>
+
+      <div class="skill">
+
+        <div class="skill-info">
+          <p>MongoDB</p>
+          <span>75%</span>
+        </div>
+
+        <div class="progress">
+          <div class="progress-bar mongo"></div>
+        </div>
+
+      </div>
+
+      <div class="skill">
+
+        <div class="skill-info">
+          <p>SQL</p>
+          <span>80%</span>
+        </div>
+
+        <div class="progress">
+          <div class="progress-bar sql"></div>
+        </div>
+
+      </div>
+
+      <div class="skill">
+
+        <div class="skill-info">
+          <p>Python</p>
+          <span>65%</span>
+        </div>
+
+        <div class="progress">
+          <div class="progress-bar python"></div>
+        </div>
+
+      </div>
+
+      <div class="skill">
+
+        <div class="skill-info">
+          <p>Blender 3D</p>
+          <span>78%</span>
+        </div>
+
+        <div class="progress">
+          <div class="progress-bar blender"></div>
+        </div>
+
+      </div>
+
+      <div class="skill">
+
+        <div class="skill-info">
+          <p>Git & GitHub</p>
+          <span>82%</span>
+        </div>
+
+        <div class="progress">
+          <div class="progress-bar git"></div>
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- BACKEND -->
+
+    <div class="skills-card">
+
+      <div class="card-heading">
+        <div class="icon backend-icon">⚡</div>
+        <h2>Backend Learning</h2>
+      </div>
+
+      <div class="skill">
+
+        <div class="skill-info">
+          <p>Node JS</p>
+          <span>70%</span>
+        </div>
+
+        <div class="progress">
+          <div class="progress-bar node"></div>
+        </div>
+
+      </div>
+
+      <div class="skill">
+
+        <div class="skill-info">
+          <p>Express JS</p>
+          <span>68%</span>
+        </div>
+
+        <div class="progress">
+          <div class="progress-bar express"></div>
+        </div>
+
+      </div>
+
+      <div class="skill">
+
+        <div class="skill-info">
+          <p>MERN Stack</p>
+          <span>75%</span>
+        </div>
+
+        <div class="progress">
+          <div class="progress-bar mern"></div>
+        </div>
+
+      </div>
+
+      <div class="skill">
+
+        <div class="skill-info">
+          <p>Responsive Design</p>
+          <span>92%</span>
+        </div>
+
+        <div class="progress">
+          <div class="progress-bar responsive"></div>
+        </div>
+
+      </div>
+
+      <div class="skill">
+
+        <div class="skill-info">
+          <p>Creative Thinking</p>
+          <span>95%</span>
+        </div>
+
+        <div class="progress">
+          <div class="progress-bar creative"></div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+    <!-- Latest Works Section -->
+<section id="projects" class="latest-works">
+  <div class="section-header">
+    <span class="subtitle">LATEST WORK</span>
+    <h2>Latest Works</h2>
+    <div class="line"></div>
+  </div>
+
+  <div class="timeline">
+
+    <!-- Project 1 -->
+    <div class="timeline-item left">
+      <div class="project-card">
+       <h1>InternConnect</h1>
+      </div>
+      <div class="content">
+        <h3>InternConnect</h3>
+        <h4>Internship & Collaboration Platform</h4>
+        <span class="date">2026</span>
+
+        <p>
+         Developed InternConnect, a platform for internships and jobs with features like video courses, quizzes, certificates, resume building, company profile creation, and job/internship posting & management. It helps students find opportunities and companies manage recruitment easily.
+        </p>
+
+        <div class="tags">
+          <span>#HTML</span>
+          <span>#CSS</span>
+          <span>#JS</span>
+          <span>#Github</span>
+          <span>#Netlify</span>
+        </div>
+
+        <div class="buttons">
+          <a href="https://bright-profiterole-e896e7.netlify.app/" alt="_blank">Live Demo</a>
+          
+        </div>
+      </div>
+    </div>
+
+    <!-- Project 2 -->
+    <div class="timeline-item right">
+      <div class="project-card">
+        <h1>DigiDoc</h1>
+      </div>
+
+      <div class="content">
+        <h3>DigiDoc</h3>
+        <h4>Smart Digital Documentation System</h4>
+        <span class="date">2025</span>
+
+        <p>
+         Developed DigiDoc, a healthcare platform that provides symptom checking, health recommendations, appointment booking, emergency services, first-aid information, and nearby clinic/hospital search for better healthcare support.
+        </p>
+
+        <div class="tags">
+          <span>#HTML</span>
+          <span>#CSS</span>
+          <span>#JS</span>
+          <span>#SQL</span>
+          <span>#PHP</span>
+          <span>#Github</span>
+          <span>#Netlify</span>
+        </div>
+
+        <div class="buttons">
+          <a href=" https://digidochealth.netlify.app/">Live Demo</a>
+          
+        </div>
+      </div>
+    </div>
+
+    <!-- Project 3 -->
+    <div class="timeline-item left">
+      <div class="project-card">
+        <h1>UI/UX Portfolio</h1>
+      </div>
+
+      <div class="content">
+        <h3>Portfolio UI/UX Case Study</h3>
+        <h4>Modern UX Research & Design</h4>
+        <span class="date">2025</span>
+
+        <p>
+          A detailed UI/UX case study showcasing user research,
+          wireframes, design systems, prototyping, and responsive
+          interface design for modern digital products.
+        </p>
+
+        <div class="tags">
+          <span>#Figma</span>
+          <span>#UIUX</span>
+          <span>#Prototype</span>
+          <span>#DesignSystem</span>
+          <span>#HTML</span>
+          <span>#CSS</span>
+          <span>#JS</span>
+        </div>
+
+        <div class="buttons">
+          <a href="https://cute-croissant-07b3e8.netlify.app/">UI/UX Portfolio</a>
+          <a href="https://illustrious-clafoutis-f6cc08.netlify.app/">Case Study</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project 4 -->
+    <div class="timeline-item right">
+      <div class="project-card">
+        <H1>3D Animation</H1>
+      </div>
+
+      <div class="content">
+        <h3>3D Animation Project</h3>
+        <style>
+            
+        </style>
+        <h4>Creative Motion & Visual Effects</h4>
+        <span class="date">2025</span>
+
+        <p>
+          A cinematic 3D animation project featuring realistic lighting,
+          motion graphics, smooth transitions, and immersive storytelling
+          using modern animation tools.
+        </p>
+
+        <div class="tags">
+          <span>#Blender</span>
+          <span>#3D</span>
+          <span>#Animation</span>
+          <span>#HTML</span>
+          <span>#CSS</span>
+          <span>#JS</span>
+        </div>
+
+        <div class="buttons">
+          <a href="https://voluble-chimera-285d46.netlify.app/">Live Demo</a>
+          
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+
+
+
+
+<!-- ================= FAQ SECTION ================= -->
+
+<section class="faq-section" id="faq">
+
+  <div class="faq-header">
+    <span>HAVE QUESTIONS?</span>
+    <h2>Technical Insights</h2>
+    <p>
+      Common questions about my skills, projects, experience, and what I can contribute.
+    </p>
+    <div class="underline"></div>
+  </div>
+
+  <div class="faq-container">
+
+    <!-- FAQ 1 -->
+    <div class="faq-item">
+      <button class="faq-question">
+        <span>1</span>
+        Who are you and what do you do?
+      </button>
+
+      <div class="faq-answer">
+        <p>
+          I'm a full-stack developer and UI/UX designer passionate about building
+          modern web applications, interactive user experiences, and scalable digital products.
+        </p>
+      </div>
+    </div>
+
+    <!-- FAQ 2 -->
+    <div class="faq-item">
+      <button class="faq-question">
+        <span>2</span>
+        What technologies do you work with?
+      </button>
+
+      <div class="faq-answer">
+        <p>
+          I work with React.js, Next.js, Node.js, Express.js, MongoDB,
+          Tailwind CSS, Firebase, Figma, and modern UI/UX tools.
+        </p>
+      </div>
+    </div>
+
+    <!-- FAQ 3 -->
+    <div class="faq-item">
+      <button class="faq-question">
+        <span>3</span>
+        What projects have you built?
+      </button>
+
+      <div class="faq-answer">
+        <p>
+          I have built projects like InternConnect, DigiDoc,
+          UI/UX case studies, portfolio websites, and 3D animation experiences.
+        </p>
+      </div>
+    </div>
+
+    <!-- FAQ 4 -->
+    <div class="faq-item">
+      <button class="faq-question">
+        <span>4</span>
+        Are you available for Job,internships or freelance work?
+      </button>
+
+      <div class="faq-answer">
+        <p>
+          Yes, I'm actively looking for Job,internships, freelance opportunities,
+          and collaborative projects where I can contribute and grow.
+        </p>
+      </div>
+    </div>
+
+    <!-- FAQ 5 -->
+    <div class="faq-item">
+      <button class="faq-question">
+        <span>5</span>
+        Can you build complete full-stack applications?
+      </button>
+
+      <div class="faq-answer">
+        <p>
+          Yes, I can build responsive frontend interfaces,
+          secure backend APIs, authentication systems, and database integrations.
+        </p>
+      </div>
+    </div>
+
+    <!-- FAQ 6 -->
+    <div class="faq-item">
+      <button class="faq-question">
+        <span>6</span>
+        How can I contact you?
+      </button>
+
+      <div class="faq-answer">
+        <p>
+          You can contact me through email, LinkedIn, GitHub,
+          or the contact form available on this portfolio website.
+        </p>
+      </div>
+    </div>
+
+  </div>
+
+</section>
+
+<!-- ================= CONTACT SECTION ================= -->
+
+<section class="contact-section" id="contact">
+
+  <div class="contact-header">
+    <span>GET IN TOUCH</span>
+    <h2>Let’s Work Together</h2>
+    <p>
+      Have a project idea or want to collaborate? Feel free to connect with me.
+    </p>
+    <div class="underline"></div>
+  </div>
+
+  <div class="contact-wrapper">
+
+    <!-- LEFT SIDE -->
+    <div class="contact-left">
+
+      <h3>Ready to start?</h3>
+
+      <p>
+        I'm currently available for Job,internships, freelance projects,
+        and full-time opportunities. Let's build something amazing together.
+      </p>
+
+      <div class="info-box">
+
+        <div class="info-item">
+          <i class="fa-regular fa-envelope"></i>
+
+          <div>
+            <span>Email</span>
+            <h4>stutu2004shah@gmail.com</h4>
+          </div>
+        </div>
+
+        <div class="info-item">
+          <i class="fa-solid fa-location-dot"></i>
+
+          <div>
+            <span>Location</span>
+            <h4>Vadodara,Gujarat,India</h4>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- RIGHT SIDE -->
+    <div class="contact-right">
+
+      <div class="coming-box">
+        <h3>Contact Form Coming Soon 🚀</h3>
+
+        <p>
+          Backend & database integration will be added later.
+          For now, you can connect with me through social links below.
+        </p>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+<!-- ================= FOOTER ================= -->
+
+<footer class="footer">
+
+  <div class="footer-top">
+
+    <!-- LOGO -->
+    <div class="footer-logo">
+      <h2>SS</h2>
+    </div>
+
+    <!-- SOCIAL LINKS -->
+    <div class="footer-links">
+
+      <h3>Connect With Me</h3>
+
+      <div class="social-icons">
+
+        <a href="https://github.com/S27Stuti" target="_blank">
+          <i class="fa-brands fa-github"></i>
+        </a>
+
+        <a href="https://www.linkedin.com/in/stuti-shah-b85942375/" target="_blank">
+          <i class="fa-brands fa-linkedin-in"></i>
+        </a>
+
+
+<a href="mailto:stutu2004shah@gmail.com" target="_blank">
+   <i class="fa-regular fa-envelope"></i>
+</a>
+
+        
+
+        <a href="https://wa.me/917041694260" target="_blank">
+          <i class="fa-brands fa-whatsapp"></i>
+        </a>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- FOOTER BOTTOM -->
+
+  <div class="footer-bottom">
+    <p>
+      Made with
+      <span class="heart">❤</span>
+      by <strong>Stuti Shah</strong>
+    </p>
+  </div>
+
+</footer>
+
+<!-- SCROLL TO TOP -->
+
+<button id="topBtn">
+  <i class="fa-solid fa-arrow-up"></i>
+</button>
+
+<!-- FONT AWESOME -->
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  
+
+
+
+
+
+  <!-- JS FILE -->
+  <script src="script.js"></script>
+
+</body>
+</html>
