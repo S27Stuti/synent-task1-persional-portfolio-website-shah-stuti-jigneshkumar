@@ -3,6 +3,15 @@
 
 A modern and responsive personal portfolio website built to showcase my skills, projects, education, and achievements. This portfolio represents my journey as a Computer Science & Design student and aspiring Software Developer.
 
+## Project Demo
+
+🎥 YouTube Demo Video:
+https://youtu.be/nphXElqzj2Q?si=i1FderfJMN2hQcKj
+
+## Documentation
+
+📄 Project Report: Available in this repository
+
 ## 🚀 Live Demo
 
 🔗 Portfolio Website: https://tourmaline-marshmallow-386785.netlify.app/
