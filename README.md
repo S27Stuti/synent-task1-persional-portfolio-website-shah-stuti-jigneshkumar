@@ -5,12 +5,13 @@ A modern and responsive personal portfolio website built to showcase my skills, 
 
 ## Project Demo
 
-🎥 YouTube Demo Video:
-https://youtu.be/nphXElqzj2Q?si=i1FderfJMN2hQcKj
+🎥 YouTube Demo Video: https://youtu.be/nphXElqzj2Q?si=i1FderfJMN2hQcKj
 
 ## Documentation
 
 📄 Project Report: Available in this repository
+
+📝 Internship Blog: https://medium.com/@stutu2004shah/my-web-development-internship-journey-at-synent-technologies-8b5065f1eb9d
 
 ## 🚀 Live Demo
 
